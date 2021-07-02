@@ -5,3 +5,4 @@ SouthRidge Project team:
 
 - Roger Rodriguez
 - Anthony Alvarez
+- Keshari White
