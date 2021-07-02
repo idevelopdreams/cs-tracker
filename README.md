@@ -4,3 +4,4 @@ Allows students to submit and track community service hours and it allows admins
 SouthRidge Project team: 
 
 - Roger Rodriguez
+- Anthony Alvarez
