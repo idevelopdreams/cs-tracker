@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 30%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
     <title>CS Tracker</title>
 </head>
 <body>
@@ -14,19 +31,58 @@
         <img src="./assets/img/hamburger-menu.svg" alt="Menu">
     </nav>
 
-    <!-- profile image and name -->
+    <!-- profile -->
     <div>
-
+      <img src="" alt="profile picture">
+      <h3>Jon Doe</h3>
     </div>
 
     <!-- student info -->
     <div>
-
+      <h4>Hours done:  <strong>15</strong> </h4>
+      <h4>Hours Missing: <strong>9</strong></h4>
+      <h4>Hours Uncomfirmed: <strong>17 </strong></h4>
     </div>
 
     <!-- history log -->
     <div>
-
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Loaction</th>
+            <th>Hours</th>
+          </tr>
+          <tr>
+            <td>3/18/2020</td>
+            <td>Beach</td>
+            <td>4 Hours</td>
+          </tr>
+          <tr>
+            <td>3/20/2020</td>
+            <td>School</td>
+            <td>4 Hours</td>
+          </tr>
+          <tr>
+            <td>3/22/2020</td>
+            <td>Park</td>
+            <td>5 Hours</td>
+          </tr>
+          <tr>
+            <td>3/24/2020</td>
+            <td>Downtown Office</td>
+            <td>2 Hours</td>
+          </tr>
+          <tr>
+            <td>3/26/2020</td>
+            <td>School</td>
+            <td>6 Hours</td>
+          </tr>
+          <tr>
+            <td>3/28/2020</td>
+            <td>Zoo</td>
+            <td>3 Hours</td>
+          </tr>
+        </table>
     </div>
 
     <!-- footer -->
