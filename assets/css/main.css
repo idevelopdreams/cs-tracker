@@ -1,0 +1,34 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 17%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F71735;
+}
+
+nav {
+    height: 40px;
+    background-color: #1E1B11;
+}
+
+#logo {
+    width: 35.5px;
+    height: 36.75px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#menu-icon {
+    margin-top: 12px;
+    margin-right: 10px;
+    float: right;
+    width: 33.06px;
+    height: 16px;
+}
