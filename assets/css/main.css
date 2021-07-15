@@ -58,9 +58,12 @@ nav {
 }
 
 #student-info {
-    background: #383737;
+    background: #1F1F1E;
     color: white;
     margin: 37.9px;
     border-radius: 11%;
     height: 190px;
+    opacity: 85%;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 1px;
 }
