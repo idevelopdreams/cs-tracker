@@ -58,12 +58,26 @@ nav {
 }
 
 #bkg{
-    background: #5a5a58;
+    background: rgb(31 31 30 / 85%);
     height: 160px;
-    width: 194px;
+    width: 244px;
+    margin-left: 12%;
     border-radius: 10px;
+}
+#text1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    margin-left: 14%;
+    margin-top: 6%;
 }
 
 #add-hours{
+    height: 41px;
+    width: 134px;;
+    font-size: 16px; 
+    font-family: 'Dosis', sans-serif;
+    margin-left: 15%;
+    margin-top: 10%;
     border-radius: 97px;
 }
