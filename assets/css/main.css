@@ -56,3 +56,14 @@ nav {
     width: 147px;
     height: 147px;
 }
+
+#bkg{
+    background: #5a5a58;
+    height: 160px;
+    width: 194px;
+    border-radius: 10px;
+}
+
+#add-hours{
+    border-radius: 97px;
+}
