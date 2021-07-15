@@ -56,3 +56,11 @@ nav {
     width: 147px;
     height: 147px;
 }
+
+#student-info {
+    background: #383737;
+    color: white;
+    margin: 37.9px;
+    border-radius: 11%;
+    height: 190px;
+}
