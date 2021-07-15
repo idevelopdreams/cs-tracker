@@ -2,6 +2,8 @@ body{
     font-family: 'Dosis', sans-serif;
 }
 
+/* styling navigation */
+
 #app-title {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
@@ -31,4 +33,26 @@ nav {
     float: right;
     width: 33.06px;
     height: 16px;
+}
+
+/* ***************************************
+    profile styles
+*************************************** */
+
+#section {
+    /* margin-left: 25%;
+    margin-right: 25%; 
+    margin-top: 19px;
+    margin-bottom: 19px;
+    */
+    margin: 19px 25%;
+    font-size: 22.62px;
+    text-align: center;
+}
+
+#profile-pic {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    width: 147px;
+    height: 147px;
 }
