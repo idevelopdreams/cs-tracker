@@ -57,6 +57,7 @@ nav {
     height: 147px;
 }
 
+
 #student-info {
     background: #1F1F1E;
     color: white;
@@ -66,4 +67,44 @@ nav {
     opacity: 85%;
     font-family: 'Dosis', sans-serif;
     padding-top: 1px;
+}
+
+
+
+
+
+
+
+/* ***************************************
+    footer styles
+*************************************** */
+
+footer {
+    height: 44px;
+    width: 330px;
+    background-color: rgba(31, 31, 30, 0.85);
+    padding-top: 8px;
+}
+
+li {
+    line-height: 14px;
+    font-size: 11.32px;
+    margin-right: 20%;
+    display: inline;
+}
+
+ul {
+    margin-left: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin: 8.75px 40%;
+    line-height: 10px;
+    font-size: 8px;
+    color: #fff;
 }
