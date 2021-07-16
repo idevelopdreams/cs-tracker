@@ -111,3 +111,32 @@ p {
     font-size: 8px;
     color: #fff;
 }
+
+/**************************
+    LOG HOURS
+**************************/
+#log-hours {
+
+    padding-bottom: 141px;
+    padding-top: 141px;
+    background: #C4C4C4;
+    text-align: center;
+}
+
+#log-button {
+
+    border-radius: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: #3E92CC;
+    margin-top: 10px;
+}
+
+#log-title {
+
+    margin-top: -35px;
+    padding-bottom: 35px;
+    font-size: larger;
+}
