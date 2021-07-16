@@ -71,8 +71,10 @@ nav {
 footer {
     height: 44px;
     width: 330px;
+    bottom:0%;
     background-color: rgba(31, 31, 30, 0.85);
     padding-top: 8px;
+    position: absolute;
 }
 
 li {
@@ -97,3 +99,78 @@ p {
     font-size: 8px;
     color: #fff;
 }
+
+
+
+
+
+/* ***************************************
+   page  heading styles
+*************************************** */
+#student-register{
+   text-align: center;
+   font-size: 32px;
+   margin-top: 12%;
+}
+
+
+
+/* ***************************************
+    form styles
+*************************************** */
+
+#name {
+    border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px;
+    width: 150px;
+    height: 10px;
+    margin: 5% 25%;
+    margin-bottom: 0%
+  }
+ 
+#email  {
+    border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px;
+    width: 150px;
+    height: 10px;
+    margin: 0% 25%;
+    margin-bottom: 0%
+  }
+ 
+  #school {
+    border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px;
+    width: 150px;
+    height: 10px;
+    margin: 0% 25%;
+    margin-bottom: 0%
+  }
+
+  #password {
+    border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px;
+    width: 150px;
+    height: 10px;
+    margin: 0% 25%;
+    margin-bottom: 0%
+  }
+  #confirm-password {
+    border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px;
+    width: 150px;
+    height: 10px;
+    margin: 0% 25%;
+    margin-bottom: 0%
+  }
+
+  #terms{
+    margin-left: 35%
+  }
+  #submit{
+    margin-left: 45%
+  }
