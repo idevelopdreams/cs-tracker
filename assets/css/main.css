@@ -166,7 +166,7 @@ tr:hover {
 
 footer {
     height: 44px;
-    width: 330px;
+    width: 100%;
     bottom:0%;
     background-color: rgba(31, 31, 30, 0.85);
     padding-top: 8px;
@@ -279,29 +279,46 @@ p {
     LOG HOURS Page
 **************************/
 #log-hours {
-
-    padding-bottom: 141px;
-    padding-top: 141px;
-    background: #C4C4C4;
+    border-radius: 5px;
+    padding-top: 10px;
+    background: rgba(196, 196, 196, 0.1);
+    padding-bottom: 20.61px;
     text-align: center;
+    width: 90%;
+    margin: 24px auto 25px;
 }
 
 #log-button {
-
-    border-radius: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    background: #3E92CC;
+    font-size: 16px;
+    width: 121px;
+    border-radius: 20px;
+    background: rgba(62, 146, 204, 1);
     margin-top: 10px;
+    height: 49px;
+    border-style: none;
 }
 
 #log-title {
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+    font-size: 20px;
+}
 
-    margin-top: -35px;
-    padding-bottom: 35px;
-    font-size: larger;
+.form-input{
+    margin-bottom: 10px;
+    background: rgba(196, 196, 196, 1);
+    border-style: none;
+    border-radius: 126px;
+    height: 40px;
+    width: 80%;
+}
+
+#log-hours-form {
+    margin-bottom: 1px;
+}
+
+#log-hours-form ::placeholder {
+  padding-left: 20px;
 }
 
 
