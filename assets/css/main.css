@@ -59,6 +59,36 @@ nav {
 
 
 
+#bkg{
+    background: rgb(31 31 30 / 85%);
+    padding-top: 10px;
+    height: 160px;
+    width: 244px;
+    margin-left: 12%;
+    border-radius: 10px;
+}
+
+.text1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    margin-left: 14%;
+    margin-top: 6%;
+}
+
+#add-hours{
+    height: 41px;
+    width: 134px;;
+    font-size: 16px; 
+    font-family: 'Dosis', sans-serif;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 97px;
+}
+
+#info-text {
+    margin-bottom: 6%;
+}
 
 
 
@@ -103,10 +133,14 @@ p {
 
 
 
+/* ***************************************
+   Registration styles
+*************************************** */
 
 /* ***************************************
    page  heading styles
 *************************************** */
+
 #student-register{
    text-align: center;
    font-size: 32px;
@@ -174,3 +208,35 @@ p {
   #submit{
     margin-left: 45%
   }
+
+
+/**************************
+    LOG HOURS Page
+**************************/
+#log-hours {
+
+    padding-bottom: 141px;
+    padding-top: 141px;
+    background: #C4C4C4;
+    text-align: center;
+}
+
+#log-button {
+
+    border-radius: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: #3E92CC;
+    margin-top: 10px;
+}
+
+#log-title {
+
+    margin-top: -35px;
+    padding-bottom: 35px;
+    font-size: larger;
+}
+
+
