@@ -13,21 +13,6 @@
     <!-- main styles -->
     <link rel="stylesheet" href="./assets/css/main.css">
 
-    <style>
-        table {
-          font-family: 'Dosis',sans-serif;
-          border-collapse: collapse;
-          width: 100%;
-        }
-
-        td, th {
-          border-bottom: 1px solid rgb(131, 131, 131);
-          text-align: left;
-          padding: 8px;
-          text-align: center;
-        }
-        tr:hover {background-color: #f2f2f2;}
-    </style>
     <title>CS Tracker</title>
 </head>
 <body>
@@ -46,14 +31,22 @@
 
     <!-- student info -->
     <div id="bkg">
-      <h4 class="text1">Hours done:  <strong>15</strong> </h4>
-      <h4 class="text1">Hours Missing: <strong>9</strong></h4>
-      <h4 class="text1">Hours Unconfirmed: <strong>17 </strong></h4>
-      <button id="add-hours"><img src="./assets/img/plus-icon.svg" alt="plus icon"> Add Hours</button>
+
+      <div id="hours-title">
+        <h4 class="text1">Hours done:</h4>
+        <h4 class="text1">Hours Missing:</h4>
+        <h4 class="text1">Hours Unconfirmed:</h4>
+      </div>
+
+        <h4 class="hours">15</h4>
+        <h4 class="hours">9</h4>
+        <h4 class="hours">17</h4>
+      
+      <button id="add-hours"><img src="./assets/img/plus-icon.svg" alt="plus icon"> <span>Add Hours</span></button>
     </div>
     
     <!-- history log -->
-    <div>
+    <div id="table-bg">
         <table>
           <tr>
             <th>Date</th>
