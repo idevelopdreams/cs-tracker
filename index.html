@@ -15,20 +15,18 @@
 
     <style>
         table {
-          font-family: arial, sans-serif;
+          font-family: 'Dosis',sans-serif;
           border-collapse: collapse;
-          width: 30%;
+          width: 100%;
         }
 
         td, th {
-          border: 1px solid #dddddd;
+          border-bottom: 1px solid rgb(131, 131, 131);
           text-align: left;
           padding: 8px;
+          text-align: center;
         }
-
-        tr:nth-child(even) {
-          background-color: #dddddd;
-        }
+        tr:hover {background-color: #f2f2f2;}
     </style>
     <title>CS Tracker</title>
 </head>
@@ -47,11 +45,11 @@
     </div>
 
     <!-- student info -->
-    <div id="student-info"> 
-      <h4 id="info-text">Hours done:  <strong>15</strong> </h4>
-      <h4 id="info-text">Hours Missing: <strong>9</strong></h4>
-      <h4 id="info-text">Hours Unconfirmed: <strong>17 </strong></h4>
-      <button><img src="./assets/img/plus-icon.svg" alt="plus icon"> Add Hours</button>
+    <div id="bkg">
+      <h4 class="text1">Hours done:  <strong>15</strong> </h4>
+      <h4 class="text1">Hours Missing: <strong>9</strong></h4>
+      <h4 class="text1">Hours Unconfirmed: <strong>17 </strong></h4>
+      <button id="add-hours"><img src="./assets/img/plus-icon.svg" alt="plus icon"> Add Hours</button>
     </div>
     
     <!-- history log -->
