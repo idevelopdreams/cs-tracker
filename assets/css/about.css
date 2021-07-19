@@ -1,0 +1,80 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+/* styling navigation */
+
+#app-title {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 17%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F71735;
+}
+
+nav {
+    height: 40px;
+    background-color: #1E1B11;
+}
+
+#logo {
+    width: 35.5px;
+    height: 36.75px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#menu-icon {
+    margin-top: 12px;
+    margin-right: 10px;
+    float: right;
+    width: 33.06px;
+    height: 16px;
+}
+* ***************************************
+    footer styles
+*************************************** */
+
+footer {
+    height: 44px;
+    width: 330px;
+    bottom:0%;
+    background-color: rgba(31, 31, 30, 0.85);
+    padding-top: 8px;
+}
+
+li {
+    line-height: 14px;
+    font-size: 11.32px;
+    margin-right: 20%;
+    display: inline;
+}
+
+ul {
+    margin-left: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin: 8.75px 40%;
+    line-height: 10px;
+    font-size: 8px;
+    color: #fff;
+}
+/* page heading */
+
+#page-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 12px;
+}
+/* paragraph */
+#paragraph {
+    font-size: 16px;
+}
