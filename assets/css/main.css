@@ -59,35 +59,101 @@ nav {
 
 
 
-#bkg{
+#bkg {
+    margin-bottom: 15px;
     background: rgb(31 31 30 / 85%);
     padding-top: 10px;
-    height: 160px;
     width: 244px;
     margin-left: 12%;
     border-radius: 10px;
+    padding-bottom: 13px;
 }
 
-.text1{
+#hours-title {
+    width: 80%;
+    display: inline;
+    float: left;
+}
+
+.text1 {
+    display: inline-block;
     color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    margin-left: 14%;
-    margin-top: 6%;
+    margin-left: 10.48px;
+    margin-top: 13px;
 }
 
-#add-hours{
-    height: 41px;
-    width: 134px;;
-    font-size: 16px; 
+.hours {
+    margin-right: 36px;
+    display: inline-block;
+    color: white;
     font-family: 'Dosis', sans-serif;
-    margin-left: 15%;
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+#add-hours {
+    border-style: none;
+    height: 46px;
+    width: 126px;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 25%;
     margin-top: 10%;
     border-radius: 97px;
 }
 
+
+#add-hours img {
+    width: 30px;
+    height: 31px;
+}
+
+#add-hours span {
+    margin-right: 6px;
+    /* font-size: 16px; */
+    margin-top: 6px;
+    /* line-height: 100%; */
+    /* margin-bottom: 32px; */
+    float: right;
+}
+
 #info-text {
     margin-bottom: 6%;
+}
+
+
+/* ***************************************
+    History Log Styles
+*************************************** */
+
+#table-bg {
+    background: rgba(196, 196, 196, 0.5);
+    padding-top: 36px;
+    padding-bottom: 11px;
+    margin-bottom: 15px;
+}
+
+table {
+    font-family: 'Dosis',sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom: 1px solid rgb(131, 131, 131);
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    padding-bottom: 36px;
+}
+    
+tr:hover {
+    background-color: #f2f2f2;
 }
 
 
@@ -104,7 +170,6 @@ footer {
     bottom:0%;
     background-color: rgba(31, 31, 30, 0.85);
     padding-top: 8px;
-    position: absolute;
 }
 
 li {
