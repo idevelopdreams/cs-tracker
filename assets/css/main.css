@@ -218,7 +218,7 @@ p {
     form styles
 *************************************** */
 
-#name {
+/* #name {
     border-radius: 25px;
     background: #c4c4c4;
     padding: 20px;
@@ -265,20 +265,19 @@ p {
     height: 10px;
     margin: 0% 25%;
     margin-bottom: 0%
+  } */
+
+  .form-checkbox{
+    margin-bottom: 11px;
+    margin-top: 11px;
   }
 
-  #terms{
-    margin-left: 35%
-  }
-  #submit{
-    margin-left: 45%
-  }
 
 
 /**************************
     LOG HOURS Page
 **************************/
-#log-hours {
+.form-backdrop {
     border-radius: 5px;
     padding-top: 10px;
     background: rgba(196, 196, 196, 0.1);
@@ -289,6 +288,7 @@ p {
 }
 
 .form-button {
+    color: #1E1B11;
     font-size: 16px;
     width: 121px;
     border-radius: 20px;
@@ -298,7 +298,8 @@ p {
     border-style: none;
 }
 
-#log-title {
+.form-title {
+    color: #1E1B11;
     font-family: 'Poppins';
     margin-bottom: 30px;
     font-size: 20px;
@@ -313,11 +314,11 @@ p {
     width: 80%;
 }
 
-#log-hours-form {
+.form {
     margin-bottom: 1px;
 }
 
-#log-hours-form ::placeholder {
+.form ::placeholder {
   padding-left: 20px;
 }
 
