@@ -2,9 +2,17 @@
     text-align: center;
     background: #c4c4c4;
     padding-top: 8%;
-    padding-bottom: 118%;
+    padding-bottom: 63%;
 }
 
 #email-line {
     padding-top: 3%;
+}
+
+#more-info {
+    text-align: center;
+}
+
+#date {
+    background: #eee3e3;
 }
