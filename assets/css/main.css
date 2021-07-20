@@ -147,7 +147,7 @@ td, th {
     text-align: left;
     padding: 8px;
     text-align: center;
-}
+}l
 
 th {
     padding-bottom: 36px;
@@ -320,4 +320,22 @@ p {
     position: relative;
     top: -23px;
     z-index: 2;
+}
+
+/**************************
+    Student Show
+**************************/
+#save-button{
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+
+#ss-title{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 122%;
+}
+
+#ss-table{
+    font-size: 14px;
 }
