@@ -142,6 +142,7 @@ table {
 }
 
 td, th {
+    word-break: break-all;
     border-bottom: 1px solid rgb(131, 131, 131);
     text-align: left;
     padding: 8px;
@@ -218,55 +219,6 @@ p {
     form styles
 *************************************** */
 
-/* #name {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 5% 25%;
-    margin-bottom: 0%
-  }
- 
-#email  {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  }
- 
-  #school {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  }
-
-  #password {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  }
-  #confirm-password {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  } */
-
   .form-checkbox{
     margin-bottom: 11px;
     margin-top: 11px;
@@ -325,6 +277,8 @@ p {
 /**************************
     Admin Dashboard
 **************************/
+
+
 #table-bkg {
     margin-bottom: 15px;
     background: rgba(196, 196, 196, 1);
