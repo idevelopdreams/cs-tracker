@@ -1,7 +1,7 @@
 /* ***************************************
     Tablet styles
 *************************************** */
-@media only screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
     
     #bkg {
         /* padding: 18px 0 0 0; */
@@ -117,3 +117,28 @@
         clear: both;
     }
 }
+
+
+@media all and (min-height: 1024px) {
+
+    #wrapper {        
+        margin: 16% 0 0;
+    }
+    
+    footer {
+        bottom: 0;
+    }
+}
+
+@media all and (min-width: 1440){
+    #wrapper {
+        background-color: red;
+    }
+}
+
+
+    
+
+    
+
+   
