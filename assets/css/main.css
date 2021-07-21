@@ -172,6 +172,7 @@ tr:hover {
 *************************************** */
 
 footer {
+    position: absolute;
     height: 44px;
     width: 100%;
     bottom:0%;
