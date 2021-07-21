@@ -2,15 +2,20 @@ body{
     font-family: 'Dosis', sans-serif;
 }
 
-/* styling navigation */
 
+/* ***************************************
+    Mobile Styles
+*************************************** */
+
+
+/* styling navigation */
 #app-title {
     display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    bottom: 10px;
-    left: 17%;
+    position: absolute;
+    top: 7px;
+    left: 35.5%;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     line-height: 30px;
     color: #F71735;
 }
@@ -60,13 +65,11 @@ nav {
 
 
 #bkg {
-    margin-bottom: 15px;
+    margin: 15px auto;
+    padding: 13px 13px;
     background: rgb(31 31 30 / 85%);
-    padding-top: 10px;
     width: 244px;
-    margin-left: 12%;
     border-radius: 10px;
-    padding-bottom: 13px;
 }
 
 #hours-title {
@@ -76,21 +79,24 @@ nav {
 }
 
 .text1 {
+    margin: 13px 0 8.7px 10.48px ;
     display: inline-block;
     color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    margin-left: 10.48px;
-    margin-top: 13px;
+}
+
+#hours {
+    display: inline;
+    width: 20%;
 }
 
 .hours {
-    margin-right: 36px;
+    margin: 13px 36px 8.7px 0;
     display: inline-block;
     color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    margin-top: 13px;
 }
 
 #add-hours {
@@ -283,7 +289,6 @@ p {
     margin-bottom: 15px;
     background: rgba(196, 196, 196, 1);
     padding-top: 5px;
-    width: 322px;
     padding-bottom: 13px;
 }
 
@@ -326,8 +331,8 @@ p {
     Student Show
 **************************/
 #save-button {
-    margin-left: 30%;
-    margin-bottom: 30px;
+    display: block;
+    margin: 30px auto;
 }
 
 #ss-title {
@@ -337,6 +342,13 @@ p {
     font-size: 22px;
 }
 
+
 #ss-table{
     font-size: 14px;
 }
+
+
+
+
+
+
