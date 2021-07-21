@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- reset css -->
+            <link rel="stylesheet" href="./assets/css/reset.css">
+            <!-- font styles -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Poppins&display=swap" rel="stylesheet">
+            <!-- main styles -->
+            <link rel="stylesheet" href="./assets/css/main.css">
+  
     <title>CS Tracker</title>
 </head>
 <body>
@@ -28,13 +37,13 @@
         </div>
     
         <!-- unconfirmed hours -->
-        <h3> Unconfirmed Hours</h3>
-        <div>
-            <table>
+        <h3 id="ss-title"> Unconfirmed Hours</h3>
+        <div id="table-bkg">
+            <table id="ss-table">
               <tr>
                 <th>Date</th>
                 <th>Location</th>
-                <th>Hours</th>
+                <th>Hour</th>
                 <th>Contact</th>
                 <th>Confirmed</th>
               </tr>
@@ -101,7 +110,9 @@
             </table>
         </div>
     
-        <button>Save</button>
+        <form class="form" action="">
+          <button type="button" id="save-button" class="form-button">Save</button>
+        </form> 
     
         <!-- footer -->
         <footer>
