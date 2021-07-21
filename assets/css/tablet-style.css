@@ -1,0 +1,119 @@
+/* ***************************************
+    Tablet styles
+*************************************** */
+@media only screen and (min-width: 768px) {
+    
+    #bkg {
+        /* padding: 18px 0 0 0; */
+        width: 48%;
+        float: left;
+        background: rgb(31 31 30 / 85%);
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+        margin: 60px 0 0 0;
+    }
+
+    #section {
+        width: 48%;
+        float: left;
+        margin: 60px 0;
+        font-size: 22.62px;
+        text-align: center;
+    }
+
+    #table-bg {
+        clear: both;
+        background: rgba(196, 196, 196, 0.5);
+        padding-top: 36px;
+        padding-bottom: 11px;
+        margin-bottom: 15px;
+    }
+
+    #profile-pic {
+        margin-bottom: 15px;
+        border-radius: 50%;
+        width: 294px;
+        height: 250px;
+    }
+
+    .text1 {
+        margin: 13px 50px 20.7px 54.48px;
+        display: inline-block;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        font-size: 24px;
+    }
+
+    .hours {
+        margin: 13px 40px 20.7px 0;
+        display: inline-block;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        font-size: 24px;
+    }
+
+    #add-hours {
+        margin: 10% auto;
+        border-style: none;
+        height: 49px;
+        width: 149px;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+        /* margin-left: 25%; */
+        /* margin-top: 10%; */
+        border-radius: 97px;
+        display: block;
+    }
+
+    #table-bg {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+
+    ul {
+        margin-left: 24%;
+    }
+
+    li {
+        line-height: 21px;
+        font-size: 15px;
+        margin-right: 25%;
+        display: inline;
+    }
+
+    p {
+        margin: 8.75px 46.5%;
+        line-height: 10px;
+        font-size: 8px;
+        color: #fff;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    #logo {
+        margin-top: 6px;
+    }
+
+    #app-title {
+        top: 10px;
+        left: 41.5%;
+        font-size: 25px;
+    }
+
+    #menu-icon {
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+
+    #ss-title {
+        clear: both;
+    }
+
+    #table-bkg {
+        clear: both;
+    }
+}
