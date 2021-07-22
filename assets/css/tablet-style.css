@@ -216,6 +216,22 @@
         margin-bottom: 30px;
         margin-top: 6%;
     }
+/* /Registration/ */
+    #table-title {
+        display: inline-block;
+        font-family: 'Dosis', sans-serif;
+        font-size: 22px;
+        margin-left: 46%;
+        margin-top: 15px;
+    }
+
+    #table-title2 {
+        display: inline-block;
+        font-family: 'Dosis', sans-serif;
+        font-size: 22px;
+        margin-left: 40%;
+        margin-top: 15px;
+    }
 }
 @media all and (min-height: 1024px) {
 
