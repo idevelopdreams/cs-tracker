@@ -77,4 +77,8 @@ p {
 /* paragraph */
 #paragraph {
     font-size: 16px;
+    color:#1E1B11;
+    line-height: 15px;
+    margin: 2% 0%
+
 }

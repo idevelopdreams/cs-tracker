@@ -2,15 +2,20 @@ body{
     font-family: 'Dosis', sans-serif;
 }
 
-/* styling navigation */
 
+/* ***************************************
+    Mobile Styles
+*************************************** */
+
+
+/* styling navigation */
 #app-title {
     display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    bottom: 10px;
-    left: 17%;
+    position: absolute;
+    top: 7px;
+    left: 35.5%;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     line-height: 30px;
     color: #F71735;
 }
@@ -60,13 +65,11 @@ nav {
 
 
 #bkg {
-    margin-bottom: 15px;
+    margin: 15px auto;
+    padding: 13px 13px;
     background: rgb(31 31 30 / 85%);
-    padding-top: 10px;
     width: 244px;
-    margin-left: 12%;
     border-radius: 10px;
-    padding-bottom: 13px;
 }
 
 #hours-title {
@@ -76,21 +79,24 @@ nav {
 }
 
 .text1 {
+    margin: 13px 0 8.7px 10.48px ;
     display: inline-block;
     color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    margin-left: 10.48px;
-    margin-top: 13px;
+}
+
+#hours {
+    display: inline;
+    width: 20%;
 }
 
 .hours {
-    margin-right: 36px;
+    margin: 13px 36px 8.7px 0;
     display: inline-block;
     color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    margin-top: 13px;
 }
 
 #add-hours {
@@ -142,6 +148,7 @@ table {
 }
 
 td, th {
+    word-break: break-all;
     border-bottom: 1px solid rgb(131, 131, 131);
     text-align: left;
     padding: 8px;
@@ -218,67 +225,17 @@ p {
     form styles
 *************************************** */
 
-#name {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 5% 25%;
-    margin-bottom: 0%
-  }
- 
-#email  {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  }
- 
-  #school {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
+  .form-checkbox{
+    margin-bottom: 11px;
+    margin-top: 11px;
   }
 
-  #password {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  }
-  #confirm-password {
-    border-radius: 25px;
-    background: #c4c4c4;
-    padding: 20px;
-    width: 150px;
-    height: 10px;
-    margin: 0% 25%;
-    margin-bottom: 0%
-  }
-
-  #terms{
-    margin-left: 35%
-  }
-  #submit{
-    margin-left: 45%
-  }
 
 
 /**************************
     LOG HOURS Page
 **************************/
-#log-hours {
+.form-backdrop {
     border-radius: 5px;
     padding-top: 10px;
     background: rgba(196, 196, 196, 0.1);
@@ -289,6 +246,7 @@ p {
 }
 
 .form-button {
+    color: #1E1B11;
     font-size: 16px;
     width: 121px;
     border-radius: 20px;
@@ -298,7 +256,8 @@ p {
     border-style: none;
 }
 
-#log-title {
+.form-title {
+    color: #1E1B11;
     font-family: 'Poppins';
     margin-bottom: 30px;
     font-size: 20px;
@@ -313,22 +272,23 @@ p {
     width: 80%;
 }
 
-#log-hours-form {
+.form {
     margin-bottom: 1px;
 }
 
-#log-hours-form ::placeholder {
+.form ::placeholder {
   padding-left: 20px;
 }
 
 /**************************
     Admin Dashboard
 **************************/
+
+
 #table-bkg {
     margin-bottom: 15px;
     background: rgba(196, 196, 196, 1);
     padding-top: 5px;
-    width: 322px;
     padding-bottom: 13px;
 }
 
@@ -366,3 +326,29 @@ p {
     top: -23px;
     z-index: 2;
 }
+
+/**************************
+    Student Show
+**************************/
+#save-button {
+    display: block;
+    margin: 30px auto;
+}
+
+#ss-title {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 22px;
+}
+
+
+#ss-table{
+    font-size: 14px;
+}
+
+
+
+
+
+
