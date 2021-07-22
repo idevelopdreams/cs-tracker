@@ -285,18 +285,20 @@ p {
 **************************/
 
 
-#table-bkg {
+.table-bkg {
     margin-bottom: 15px;
     background: rgba(196, 196, 196, 1);
     padding-top: 5px;
     padding-bottom: 13px;
+    clear: both;
+
 }
 
 #table-title{
     display: inline-block;
     font-family: 'Dosis', sans-serif;
     font-size: 22px;
-    margin-left: 115px;
+    margin-left: 40%;
     margin-top: 15px;
 }
 
@@ -304,27 +306,25 @@ p {
     display: inline-block;
     font-family: 'Dosis', sans-serif;
     font-size: 22px;
-    margin-left: 75px;
+    margin-left: 28%;
     margin-top: 15px;
 }
 
 .search-box{
-    display: inline-block;
+    float: right;
     font-family: 'Dosis', sans-serif;
     font-size: 15px;
-    margin-left: 43%;
-    margin-top: 3%;
+    margin-top: 12px;
     width: 170px;
     border-radius: 2px;
+    margin-bottom: 10px;
 }
 
 .search-icon{
-    display: inline-block;
-    margin-left: 90%;
+    margin-top: 15px;
+    float: right;
     width: 20px;
-    position: relative;
-    top: -23px;
-    z-index: 2;
+    margin-right: -176px;
 }
 
 /**************************
