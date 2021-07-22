@@ -1,0 +1,19 @@
+#admin-nav {
+    width: 352px;
+}
+
+#admin-log-form {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 285px;
+}
+
+#admin-log-title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#admin-log-footer {
+    width: 352px;
+}
