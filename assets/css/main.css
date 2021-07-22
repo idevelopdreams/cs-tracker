@@ -172,9 +172,9 @@ tr:hover {
 *************************************** */
 
 footer {
+    position: absolute;
     height: 44px;
     width: 100%;
-    bottom:0%;
     background-color: rgba(31, 31, 30, 0.85);
     padding-top: 8px;
 }
