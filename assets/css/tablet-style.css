@@ -1,7 +1,16 @@
 /* ***************************************
+    Cell styles
+*************************************** */
+@media screen and (max-width: 540px) {
+ 
+
+}
+
+
+/* ***************************************
     Tablet styles
 *************************************** */
-@media only screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
     
     /* /Student Show/ */
     #bkg {
@@ -208,3 +217,22 @@
         margin-top: 6%;
     }
 }
+@media all and (min-height: 1024px) {
+
+    #wrapper {        
+        margin: 16% 0 0;
+    }
+    
+    footer {
+        bottom: 0;
+    }
+}
+
+
+
+/* ***************************************
+    Cell styles
+*************************************** */
+
+
+
