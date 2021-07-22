@@ -1,7 +1,3 @@
-#admin-nav {
-    width: 352px;
-}
-
 #admin-log-form {
     text-align: center;
     padding-top: 20px;
@@ -12,8 +8,20 @@
     text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
-#admin-log-footer {
-    width: 352px;
+#admin-log {
+    text-align: center;
+    background: #c4c4c4;
+    padding-top: 15%;
+    padding-bottom: 38%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#admin-log-bu {
+    background: #eee3e3;
 }
