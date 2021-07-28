@@ -198,7 +198,7 @@
         margin-top: 9%;
     }
 
-    /* /Registration/ */
+/* /Registration/ */
     #form-backdropr {
         border-radius: 5px;
         padding-top: 15px;
@@ -216,7 +216,7 @@
         margin-bottom: 30px;
         margin-top: 6%;
     }
-/* /Registration/ */
+    /* /Admin Dashboard/ */
     #table-title {
         display: inline-block;
         font-family: 'Dosis', sans-serif;
@@ -232,7 +232,47 @@
         margin-left: 40%;
         margin-top: 15px;
     }
+/* /Admin Registration/ */  
+    .form-input {
+        margin-bottom: 20px;
+        background: rgba(196, 196, 196, 1);
+        border-style: none;
+        border-radius: 126px;
+        height: 60px;
+        width: 390px;
+        font-size: 20px;
+        font-family: 'Dosis';
+        text-align: center;
+    }
+    .form-title {
+        color: #1E1B11;
+        font-family: 'Dosis';
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 10%;
+    }
+    .form-backdrop {
+        border-radius: 5px;
+        padding-top: 15px;
+        background: rgba(196, 196, 196, 0.1);
+        text-align: center;
+        width: 90%;
+        height: 765px;
+        margin: 24px auto 25px;
+        margin-top: 7%;
+    }
+    .form-button {
+        color: #1E1B11;
+        background: rgba(62, 146, 204, 1);
+        font-size: 19px;
+        width: 128px;
+        height: 60px;
+        border-radius: 20px;
+        border-style: none;
+        margin-top: 18px;
+    }
 }
+
 @media all and (min-height: 1024px) {
 
     #wrapper {        
@@ -241,6 +281,56 @@
     
     footer {
         bottom: 0;
+    }
+
+    /* /Admin Registration/ */  
+    .form-input {
+        margin-bottom: 20px;
+        background: rgba(196, 196, 196, 1);
+        border-style: none;
+        border-radius: 126px;
+        width: 47%;
+        height: fit-content;
+        font-size: 20px;
+        font-family: 'Dosis';
+        text-align: center;
+        float: left;
+        padding: 18px;
+    }
+    .tac{
+        margin-top: 40px
+    }
+    #button{
+        margin-top: 24px;
+        height: 64px;
+        width: 120px;
+    }
+    .form-title {
+        color: #1E1B11;
+        font-family: 'Dosis';
+        font-size: 35px;
+        margin-bottom: 45px;
+        margin-top: 10%;
+    }
+    .form-backdrop {
+        border-radius: 5px;
+        padding-top: 6px;
+        background: rgba(196, 196, 196, 0.1);
+        text-align: center;
+        width: 93%;
+        height: 768px;
+        margin: 24px auto 25px;
+        margin-top: 7%;
+    }
+    .form-button {
+        color: #1E1B11;
+        background: rgba(62, 146, 204, 1);
+        font-size: 19px;
+        width: 128px;
+        height: 60px;
+        border-radius: 20px;
+        border-style: none;
+        margin-top: 18px;
     }
 }
 
