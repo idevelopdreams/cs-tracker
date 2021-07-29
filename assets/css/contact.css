@@ -25,3 +25,8 @@
     font-family: 'Poppins';
     font-size: 20px;
 }
+
+/* tablet styles */
+@media all and (min-width: 768px) {
+
+}
