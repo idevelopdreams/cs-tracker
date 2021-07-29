@@ -13,7 +13,6 @@
     
     /* /Student Show/ */
     #bkg {
-        /* padding: 18px 0 0 0; */
         width: 48%;
         float: left;
         background: rgb(31 31 30 / 85%);
@@ -69,8 +68,6 @@
         width: 149px;
         font-size: 20px;
         font-family: 'Dosis', sans-serif;
-        /* margin-left: 25%; */
-        /* margin-top: 10%; */
         border-radius: 97px;
         display: block;
     }
@@ -183,7 +180,6 @@
         background: rgba(196, 196, 196, 0.1);
         text-align: center;
         width: 90%;
-        /* height: 705px; */
         margin: 24px auto 25px;
         margin-top: 9%;
     }
@@ -195,7 +191,6 @@
         background: rgba(196, 196, 196, 0.1);
         text-align: center;
         width: 90%;
-        /* height: 585px; */
         margin: 24px auto 25px;
         margin-top: 9%;
     }
@@ -257,7 +252,7 @@
 @media all and (min-height: 1024px) {
 
     #wrapper {        
-     margin: 4% 0 0;
+     margin: 12% 0 0;
     }
     
     footer {
@@ -313,71 +308,30 @@
         border-style: none;
         margin-top: 18px;
     }
-     /* /Student Show/ */
-    #bkg2{
-        width: 38%;
-        float: left;
-        height: 250px;
-        background: rgb(31 31 30 / 85%);
-        border-radius: 10px;
-        margin: 0;
-        padding: 0;
-        margin: 60px 0 0 0;
-        }
-    .text1{
-        margin: 25px 50px 20.7px 54.48px;
-        display: inline-block;
-        color: white;
-        font-family: 'Dosis', sans-serif;
-        font-size: 24px;
-    }
-    .hours {
-        margin: 25px 40px 20.7px 0;
-        display: inline-block;
-        color: white;
-        font-family: 'Dosis', sans-serif;
-        font-size: 24px;
-    }
-    /* /Profile/ */
-    #add-hours {
-        margin: 5% 37% 8%;
-        border-style: none;
-        height: 49px;
-        width: 149px;
-        font-size: 20px;
-        font-family: 'Dosis', sans-serif;
-        border-radius: 97px;
-        display: block;
-        clear: both;
-    }
-    #hours-title {
-        width: 42%;
-        display: inline;
-        float: left;
-        margin-left: 50px;
-    }
-    #hours {
-        display: inline-grid;
-        width: 20%;
-        margin-left: 125px;
-    }
-    #bkg {
-        width: 48%;
-        float: left;
-        background: rgb(31 31 30 / 85%);
-        border-radius: 10px;
-        margin: 0;
-        padding: 0;
-        margin: 30px 0 4% 0;
-    }
 }
 
 
 
 
 /* ***************************************
-    Cell styles
+    Desktop styles
 *************************************** */
+
+@media screen and (min-width: 1440px) {
+
+    #hours-title {
+        width: 42%;
+        display: inline;
+        float: left;
+        margin-left: 50px;
+    }
+      #hours {
+        display: inline-grid;
+        width: 20%;
+        margin-left: 125px;
+    }
+}
+
 
 
 

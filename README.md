@@ -33,13 +33,13 @@ tablet
 
 
 desktop
-- student show laptop (keshari)
+<!-- - student show laptop (keshari) -->
 <!-- - student index laptop -->
 
 <!-- - admin dash search icon  -->
 <!-- - admin log in (missing all) -->
 <!-- - admin registration (missing all) -->
-- admin student show (laptop large) (keshari)
+<!-- - admin student show (laptop large) (keshari) -->
 <!-- - loghours (roger) -->
 <!-- - registration (roger) -->
 
