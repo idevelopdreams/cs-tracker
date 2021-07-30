@@ -3,16 +3,16 @@ body{
 }
 /* styling navigation */
 
-#app-title {
+#app-titl {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     position: relative;
     bottom: 10px;
-    left: 17%;
     font-size: 20px;
     line-height: 30px;
     color: #F71735;
     top: -7px;
+    text-align: center;
 }
 
 nav {
